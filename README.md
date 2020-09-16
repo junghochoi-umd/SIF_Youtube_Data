@@ -1,6 +1,9 @@
 # SIF_Youtube_Data
 
-## Introduction
+## Introduction 
+Github README version (https://github.com/junghochoi/SIF_Youtube_Data)
+
+
 The most interesting part of this dataset in my opinon was the *publish_time* and the *trending_date*. 
 With this information, I wanted to find...
 1.  How many days it took  for videos to become trending since the publish date (I'll call this *days_till_trending*)
@@ -16,13 +19,17 @@ I took the processed data to Microsoft Excel and found that these two datasets a
 
 
 ![days_till_trending](imgs/days_till_trending.PNG)
+
+
 ![days_till_trending](imgs/num_days_trending.PNG)
 
 The **median** number of days until a video starts to trend is  2 days.
 
 The **median** number of days a video trednds for is 5 days. 
 
-I think the funniest part about this data is that it shows videos that have trended after 5 years after the upload date and the videos are pretty intriguing.  I'll list some here
+The **average** number of days is not really relevant of the right skewedness of the data
+
+I think the the most interesting part about this data is that it shows videos that have trended 5 years after the upload date and the videos are pretty intriguing.  I'll list some here:
 
 
 ### 1992 Chevy Lumina Euro commercial
@@ -39,6 +46,9 @@ https://www.youtube.com/watch?v=K9kVsnTQh-g
 ## Github
 
 If you're interested, I have the github repository where I have the pre-processing script and the microsoft excel sheet. On the excel sheet you can check out other useful stats.
+
+
+**The Excel sheet with all the data is located in youtube_data/output.xlsx** 
 ![excel](imgs/excel.PNG)
 
 https://github.com/junghochoi/SIF_Youtube_Data
